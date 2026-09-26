@@ -1,6 +1,6 @@
 cask "search-stack" do
-  version "0.1.1"
-  sha256 "8b3bc4b3d4b925ec6012dc78961c78d4b7e77c36127cd1c2b781b9c9406e2e99"
+  version "0.1.2"
+  sha256 "c051eb29e0f1a53711b02f3131faab69f6ca522072dcf63fe161878e18e27944"
 
   url "https://github.com/nanomader/search-stack/releases/download/v#{version}/Search-Stack-#{version}-arm64.dmg"
   name "Search Stack"
