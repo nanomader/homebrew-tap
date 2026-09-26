@@ -1,6 +1,6 @@
 cask "search-stack" do
-  version "0.1.0"
-  sha256 "fadd8f72faf1060c992fda81d1f4ebf80514fcc12603e9a8a57eb22f8f283981"
+  version "0.1.1"
+  sha256 "8b3bc4b3d4b925ec6012dc78961c78d4b7e77c36127cd1c2b781b9c9406e2e99"
 
   url "https://github.com/nanomader/search-stack/releases/download/v#{version}/Search-Stack-#{version}-arm64.dmg"
   name "Search Stack"
@@ -12,11 +12,4 @@ cask "search-stack" do
 
   app "Search Stack.app"
 
-  caveats <<~EOS
-    This preview is ad-hoc signed, but not Developer ID signed or Apple-notarized.
-    If macOS blocks the first launch, click Done, then open System Settings >
-    Privacy & Security > Open Anyway for Search Stack, and confirm Open.
-    Apple's instructions:
-      https://support.apple.com/en-us/102445
-  EOS
 end
