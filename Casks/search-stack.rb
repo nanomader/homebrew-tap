@@ -8,7 +8,7 @@ cask "search-stack" do
   homepage "https://github.com/nanomader/search-stack"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Search Stack.app"
 
