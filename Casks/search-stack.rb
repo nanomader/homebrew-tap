@@ -14,7 +14,9 @@ cask "search-stack" do
 
   caveats <<~EOS
     This preview is ad-hoc signed, but not Developer ID signed or Apple-notarized.
-    If macOS blocks the first launch, follow Apple's Open Anyway instructions:
+    If macOS blocks the first launch, click Done, then open System Settings >
+    Privacy & Security > Open Anyway for Search Stack, and confirm Open.
+    Apple's instructions:
       https://support.apple.com/en-us/102445
   EOS
 end

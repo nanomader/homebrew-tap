@@ -9,7 +9,9 @@ brew install --cask nanomader/tap/search-stack
 
 The first preview supports **Apple silicon Macs running macOS 13 or newer**.
 It is ad-hoc signed, but not Developer ID signed or Apple-notarized. If macOS
-blocks the first launch, follow [Apple's Open Anyway instructions](https://support.apple.com/en-us/102445).
+blocks the first launch, click **Done**, then open **System Settings → Privacy &
+Security → Open Anyway** for Search Stack and confirm **Open**. See
+[Apple's instructions](https://support.apple.com/en-us/102445).
 
 To update or remove it:
 
