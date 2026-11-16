@@ -1,6 +1,6 @@
 cask "repo-sweep" do
-  version "0.1.0"
-  sha256 "14aa74c1368ee1c2246ca12ad90ca64325454451968937faa355ba87a6ca9191"
+  version "0.2.0"
+  sha256 "a7a3292f614970edcc1d5186782f194b517a13b53c6e9f195c7ddde4029f3b91"
 
   url "https://github.com/nanomader/repo-sweep/releases/download/v#{version}/repo-sweep-#{version}.dmg"
   name "Repo Sweep"
